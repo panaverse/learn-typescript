@@ -8,7 +8,7 @@ function MyClassDecorator(value: string) {
   }
 }
 
-@MyClassDecorator("my metadata")
+@MyClassDecorator("my metadata in class decorator")
 class MyClass { }
 
 var myClass = new MyClass();

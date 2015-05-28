@@ -20,7 +20,7 @@ var MyClass = (function () {
     function MyClass() {
     }
     MyClass = __decorate([
-        MyClassDecorator("my metadata"), 
+        MyClassDecorator("my metadata in class decorator"), 
         __metadata('design:paramtypes', [])
     ], MyClass);
     return MyClass;
