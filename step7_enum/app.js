@@ -24,4 +24,3 @@ var Color2;
 ; //can assign values to all
 var colorIndex = Color2["Blue"];
 console.log(colorIndex);
-//# sourceMappingURL=app.js.map

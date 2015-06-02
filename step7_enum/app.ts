@@ -6,5 +6,5 @@ var colorName: string = Color[2];
 console.log(colorName);
 
 enum Color2 {Red = 1, Green = 2, Blue = 4};//can assign values to all
-var colorIndex: number = Color2["Blue"];
+var colorIndex = Color2["Blue"];
 console.log(colorIndex);
