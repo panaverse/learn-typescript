@@ -1,15 +1,19 @@
-//strongly typed syntax
-var a : string = "Pakistan";
-a = "USA";
-var b : number = 9;
-var c : boolean = true;
+//use const where veriable values do not change
+const a = 5;
+const b : number = 33;
+const c ="best";
 
-//type inference
-var e = "USA";
-var f = 10.9;
-f = 22;
-var g = false;
-g = true;
+//I suggest use let instead of var everywhere, becuase let has blocked scope
+if (true) {
+	let a = 4;
+	//use a
+}
+else {
+	let a = "string";
+	//use a
+}
+console.log("let: " + a);// Error: a is not defined in this scope
+
 
 
 

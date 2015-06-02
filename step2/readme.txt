@@ -1,2 +1,3 @@
-Read typing syntax in chapter 2 of Mastering TypeScript Book:
-http://www.amazon.com/Mastering-TypeScript-Nathan-Rozentals/dp/1784399663/
+ES6 let and const are now part of TypeScript:
+https://strongloop.com/strongblog/es6-variable-declarations/
+https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript
