@@ -1,0 +1,1 @@
+{"version":3,"file":"app.js","sourceRoot":"","sources":["app.ts"],"names":["myCallBack","callingFunction"],"mappings":"AAAA,oBAAoB,IAAY;IAC5BA,OAAOA,CAACA,GAAGA,CAACA,oBAAoBA,GAAGA,IAAIA,CAACA,CAACA;AAC7CA,CAACA;AAED,yBAAyB,WAAmB,EACxC,QAAgC;IAEhCC,QAAQA,CAACA,WAAWA,CAACA,CAACA;AAC1BA,CAACA;AAED,eAAe,CAAC,QAAQ,EAAE,UAAU,CAAC,CAAC"}
