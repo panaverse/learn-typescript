@@ -25,7 +25,7 @@ var Robot = (function () {
 var h = new Human("Tom");
 var a = new Animal("Goat");
 var r = new Robot("R2-D2");
-var r0 = new Animal("Donkey");
+var r0 = new Animal("Donkey"); //how is this possible?
 /* TypeScript is a structural type system which is different from Java, C#, etc. When we compare two different types, regardless of where they came from,
 if the types of each member are compatible, then we say the types themselves are compatible. */
 var h2 = h;
