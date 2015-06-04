@@ -42,7 +42,7 @@ let r0: Robot = new Animal("Donkey");//how is this possible?
 /* TypeScript is a structural type system which is different from Java, C#, etc. When we compare two different types, regardless of where they came from, 
 if the types of each member are compatible, then we say the types themselves are compatible. */
 let h2 = h;
-h = a;//both have same properties and methods therefoe are compatible
+h = a;//both have same properties and methods therefore are compatible
 h.eat();
 let a2 = a;
 
