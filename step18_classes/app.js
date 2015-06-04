@@ -27,7 +27,9 @@ var a = new Animal("Goat");
 var r = new Robot("R2-D2");
 var r0 = new Animal("Donkey"); //how is this possible?
 var isItRobot = r0 instanceof Robot;
-console.log("Is Donkey a Robot: " + isItRobot);
+console.log("Is Donkey a Robot: " + isItRobot); //false, giving the right results
+var isItAnimal = r0 instanceof Animal;
+console.log("Is Donkey a Animal: " + isItAnimal); //true, giving the right results
 /* TypeScript is a structural type system which is different from Java, C#, etc. When we compare two different types, regardless of where they came from,
 if the types of each member are compatible, then we say the types themselves are compatible. */
 var h2 = h;
@@ -36,5 +38,5 @@ h.eat();
 var a2 = a;
 var r2 = r;
 r = a; //Animal has a name, Robot also has a name
-//a = r2;//Error, Robot does not have eat property
+//a = r2;//Error, Robot does not have eat method
 //# sourceMappingURL=app.js.map
