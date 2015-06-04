@@ -39,6 +39,10 @@ let a: Animal = new Animal("Goat");
 let r: Robot = new Robot("R2-D2");
 let r0: Robot = new Animal("Donkey");//how is this possible?
 
+var isItRobot = r0 instanceof Robot;
+console.log("Is Donkey a Robot: " + isItRobot);
+
+
 /* TypeScript is a structural type system which is different from Java, C#, etc. When we compare two different types, regardless of where they came from, 
 if the types of each member are compatible, then we say the types themselves are compatible. */
 let h2 = h;
