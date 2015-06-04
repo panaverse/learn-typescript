@@ -52,4 +52,4 @@ let a2 = a;
 
 let r2 = r;
 r = a;//Animal has a name, Robot also has a name
-//a = r2;//Error, Robot does not have eat property
+//a = r2;//Error, Robot does not have eat method
