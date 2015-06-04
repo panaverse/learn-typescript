@@ -36,13 +36,16 @@ class Robot {
 
 let h: Human = new Human("Tom");
 let a: Animal = new Animal("Goat");
-let r: Robot = new Animal("R2-D2");
+let r: Robot = new Robot("R2-D2");
+let r0: Robot = new Animal("Donkey");
 
 /* TypeScript is a structural type system which is different from Java, C#, etc. When we compare two different types, regardless of where they came from, 
 if the types of each member are compatible, then we say the types themselves are compatible. */
 let h2 = h;
 h = a;//both have same properties and methods therefoe are compatible
 h.eat();
+let a2 = a;
+
 let r2 = r;
 r = a;//Animal has a name, Robot also has a name
 //a = r2;//Error, Robot does not have eat property

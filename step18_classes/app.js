@@ -24,12 +24,14 @@ var Robot = (function () {
 })();
 var h = new Human("Tom");
 var a = new Animal("Goat");
-var r = new Animal("R2-D2");
+var r = new Robot("R2-D2");
+var r0 = new Animal("Donkey");
 /* TypeScript is a structural type system which is different from Java, C#, etc. When we compare two different types, regardless of where they came from,
 if the types of each member are compatible, then we say the types themselves are compatible. */
 var h2 = h;
 h = a; //both have same properties and methods therefoe are compatible
 h.eat();
+var a2 = a;
 var r2 = r;
 r = a; //Animal has a name, Robot also has a name
 //a = r2;//Error, Robot does not have eat property
