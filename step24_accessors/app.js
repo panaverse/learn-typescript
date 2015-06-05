@@ -15,7 +15,7 @@ var Employee = (function () {
                 this._fullName = newName;
             }
             else {
-                alert("Error: Unauthorized update of employee!");
+                console.log("Error: Unauthorized update of employee!");
             }
         },
         enumerable: true,
@@ -26,7 +26,7 @@ var Employee = (function () {
 var employee = new Employee();
 employee.fullName = "Bob Smith";
 if (employee.fullName) {
-    alert(employee.fullName);
+    console.log(employee.fullName);
 }
 //We check to make sure the user has a secret passcode available before we allow them to modify the employee. 
 //# sourceMappingURL=app.js.map

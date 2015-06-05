@@ -18,7 +18,7 @@ class Employee {
             this._fullName = newName;
         }
         else {
-            alert("Error: Unauthorized update of employee!");
+            console.log("Error: Unauthorized update of employee!");
         }
     }
 }
@@ -26,7 +26,7 @@ class Employee {
 var employee = new Employee();
 employee.fullName = "Bob Smith";
 if (employee.fullName) {
-    alert(employee.fullName);
+    console.log(employee.fullName);
 }
 
 //We check to make sure the user has a secret passcode available before we allow them to modify the employee.
