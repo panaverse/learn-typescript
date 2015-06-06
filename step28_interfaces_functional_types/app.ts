@@ -1,3 +1,8 @@
+//We can use interfaces to describe function types, please note this is different from Java or C# 
+//where we can only use interfaces to describe class types.
+
+//We are defining a interface with a single function, any function with the same signature will have this type 
+
 interface SearchFunc {
   (source: string, subString: string): boolean;
 }

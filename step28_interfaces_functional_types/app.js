@@ -1,3 +1,5 @@
+//We can use interfaces to describe function types, please note this is different from Java or C# 
+//where we can only use interfaces to describe class types.
 var mySearch = function (src, sub) {
     var result = src.search(sub);
     if (result == -1) {
