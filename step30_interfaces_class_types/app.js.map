@@ -1,0 +1,1 @@
+{"version":3,"file":"app.js","sourceRoot":"","sources":["app.ts"],"names":["Clock","Clock.constructor","Clock.setTime"],"mappings":"AAAA,2EAA2E;AAC3E,wGAAwG;AAOxG;IAKIA,eAAYA,CAASA,EAAEA,CAASA;IAAIC,CAACA;IAHrCD,uBAAOA,GAAPA,UAAQA,CAAOA;QACXE,IAAIA,CAACA,WAAWA,GAAGA,CAACA,CAACA;IACzBA,CAACA;IAELF,YAACA;AAADA,CAACA,AAND,IAMC;AAGD,kGAAkG;AAClG,gIAAgI"}
