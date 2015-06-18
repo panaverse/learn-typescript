@@ -1,0 +1,27 @@
+{
+	"files": [
+		"lib/compiler.ts",
+		"lib/filter.ts",
+		"lib/host.ts",
+		"lib/input.ts",
+		"lib/main.ts",
+		"lib/output.ts",
+		"lib/project.ts",
+		"lib/reporter.ts",
+		"lib/tsapi.ts",
+		"lib/utils.ts",
+		"lib/vinyl-file.ts",
+		"typings/tsd.d.ts",
+		"typings/chalk/chalk.d.ts",
+		"typings/gulp-util/gulp-util.d.ts",
+		"typings/node/node.d.ts",
+		"typings/source-map/source-map.d.ts",
+		"typings/through2/through2.d.ts",
+		"typings/vinyl/vinyl.d.ts",
+		"typings/vinyl-fs/vinyl-fs.d.ts"
+	],
+	"compilerOptions": {
+		"target": "ES5",
+		"module": "commonjs"
+	}
+}
