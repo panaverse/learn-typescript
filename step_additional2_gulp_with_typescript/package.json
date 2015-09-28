@@ -1,0 +1,16 @@
+{
+  "name": "step_additional2_gulp_with_typescript",
+  "version": "1.0.0",
+  "description": "Read: http://sravi-kiran.blogspot.com/2015/09/writing-gulpfile-using-typescript.html",
+  "main": "",
+  "dependencies": {
+    "gulp-typescript": "^2.7.7",
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "gulp": "tsc gulpfile.ts && gulp"
+  },
+  "author": "",
+  "license": "ISC"
+}
