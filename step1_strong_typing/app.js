@@ -9,4 +9,3 @@ var f = 10.9;
 f = 22;
 var g = false;
 g = true;
-//# sourceMappingURL=app.js.map
