@@ -4,10 +4,9 @@ var b = 33;
 var c = "best";
 //I suggest use let instead of var everywhere, becuase let has blocked scope
 if (true) {
-    var a_1 = 4;
+    var z = 4;
 }
 else {
-    var a_2 = "string";
+    var z = "string";
 }
-console.log("let: " + a); // Error: a is not defined in this scope
-//# sourceMappingURL=app.js.map
+console.log("let: " + z); // Error: a is not defined in this scope

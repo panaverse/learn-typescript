@@ -5,14 +5,14 @@ const c ="best";
 
 //I suggest use let instead of var everywhere, becuase let has blocked scope
 if (true) {
-	let a = 4;
-	//use a
+	let z = 4;
+	//use z
 }
 else {
-	let a = "string";
-	//use a
+	let z = "string";
+	//use z
 }
-console.log("let: " + a);// Error: a is not defined in this scope
+console.log("let: " + z);// Error: a is not defined in this scope
 
 
 
