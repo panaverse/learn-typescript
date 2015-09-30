@@ -2,11 +2,14 @@
 //TypeScript uses what the specification calls “structural subtyping” to determine compatibility. 
 //This is similar to what’s often called “duck typing.” 
 
+//Added new rules for TypeScript 1.6 https://github.com/Microsoft/TypeScript/pull/3823
+
 let myType = { name: "Zia", id: 1 };
 myType = { id: 2,  name: "Tom" };// can only assign a type which has the atleast the same properties
-myType = { id: 2,  name: "Tom", age: 22 };
+myType = { id: 2,  name_person: "Tom" };//Error, renamed property
+myType = { id: 2,  name: "Tom", age: 22 };//Error, excess property
 
-//Added new rules for TypeScript 1.6 https://github.com/Microsoft/TypeScript/pull/3823
+
 var x: { foo: number };
 x = { foo: 1, baz: 2 };  // Error, excess property `baz`
 

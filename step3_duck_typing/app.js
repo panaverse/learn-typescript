@@ -3,7 +3,8 @@
 //This is similar to what’s often called “duck typing.” 
 var myType = { name: "Zia", id: 1 };
 myType = { id: 2, name: "Tom" }; // can only assign a type which has the atleast the same properties
-myType = { id: 2, name: "Tom", age: 22 };
+myType = { id: 2, name_person: "Tom" };
+myType = { id: 2, name: "Tom", age: 22 }; //Error
 //Added new rules for TypeScript 1.6 https://github.com/Microsoft/TypeScript/pull/3823
 var x;
 x = { foo: 1, baz: 2 }; // Error, excess property `baz`
