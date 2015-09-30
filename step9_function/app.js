@@ -10,4 +10,5 @@ var myAdd2 = function (x, y) {
 var myAdd3 = function (x, y) {
     return x + y;
 };
-//# sourceMappingURL=app.js.map
+var myAdd4 = function (a, b) { return a + b; }; //Lambda functions
+//output will be: var myAdd4 = function(a : number, b : number) {return a + b};
