@@ -13,7 +13,7 @@ var Color1;
     Color1[Color1["Blue"] = 3] = "Blue";
 })(Color1 || (Color1 = {}));
 ;
-var colorName = Color[2];
+var colorName = Color1[2];
 console.log(colorName);
 var Color2;
 (function (Color2) {
