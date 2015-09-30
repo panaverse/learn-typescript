@@ -14,4 +14,3 @@ var buildName1 = function (firstName, lastName) {
     else
         return firstName;
 };
-//# sourceMappingURL=app.js.map
