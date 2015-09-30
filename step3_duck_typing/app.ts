@@ -4,8 +4,25 @@
 
 let myType = { name: "Zia", id: 1 };
 myType = { id: 2,  name: "Tom" };// can only assign a type which has the atleast the same properties
-myType = { id: 3,  name: "Mike", gender: false };//Error after 1.6 cannot even add a property
+myType = { id: 2,  name: "Tom", age: 22 };
 
-let anotherType = {name: "Zed", age: 32};
-anotherType = {name: "Zed"};//Type Error
+//Added new rules for TypeScript 1.6 https://github.com/Microsoft/TypeScript/pull/3823
+var x: { foo: number };
+x = { foo: 1, baz: 2 };  // Error, excess property `baz`
+
+var y: { foo: number, bar?: number };
+y = { foo: 1, baz: 2 };  // Error, excess or misspelled property `baz`
+
+//The rationale for the above two errors above is that since the fresh types of the object literals are 
+//never captured in variables, static knowledge of the excess or misspelled properties should not be silently lost. 
+
+//No errors occur when the fresh types are captured in variables:
+
+var a: { foo: number };
+var a1 = { foo: 1, baz: 2 };
+a = a1;//No Error
+
+var z: { foo: number, bar?: number };
+var z1 = { foo: 1, baz: 2 };
+z = z1;//No Error
 
