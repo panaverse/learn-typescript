@@ -4,5 +4,8 @@
 
 let myType = { name: "Zia", id: 1 };
 myType = { id: 2,  name: "Tom" };// can only assign a type which has the atleast the same properties
-myType = { id: 3,  name: "Mike", gender: false };//can add a property
+myType = { id: 3,  name: "Mike", gender: false };//Error after 1.6 cannot even add a property
+
+let anotherType = {name: "Zed", age: 32};
+anotherType = {name: "Zed"};//Type Error
 
