@@ -43,7 +43,9 @@ This is called a type guard.*/
 
 var x: any = "Tom"; //Line A
 if(typeof x === 'string') { //Line B
-   console.log(x.lengthX);// Error, 'lengthX' does not exist on 'string'
+   console.log(x.lengthX);// Error, 'lengthX' does not exist on 'string' but 'lenght' does
 }
 // x is still any here
 x.unknown();// OK
+
+
