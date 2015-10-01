@@ -5,4 +5,3 @@ function callingFunction(initialText, callback) {
     callback(initialText);
 }
 callingFunction("myText", myCallBack);
-//# sourceMappingURL=app.js.map
