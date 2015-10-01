@@ -1,6 +1,6 @@
 //User defined type guards in 1.6
 function isCat(a) {
-    return a.name === 'kitty';
+    return true;
 }
 var x;
 if (isCat(x)) {

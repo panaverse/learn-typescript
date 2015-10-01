@@ -5,4 +5,3 @@ function work(x) {
 function usingCallback(f) {
     f("This is a string");
 }
-//# sourceMappingURL=app.js.map

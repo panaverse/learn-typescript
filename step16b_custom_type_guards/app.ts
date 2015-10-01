@@ -12,7 +12,7 @@ interface Animal {name: string; }
 interface Cat extends Animal { meow(); }
 
 function isCat(a: Animal): a is Cat {
-  return a.name === 'kitty';
+  return true;
 }
 
 var x: Animal;
