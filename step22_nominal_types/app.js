@@ -1,11 +1,10 @@
 //When comparing types that have 'private' members, we treat these differently. For two types to be considered compatible, 
 //if one of them has a private member, then the other must have a private member that originated in the same declaration. 
 //This allows us to implement Nominative types in TypeScript 
-var __extends = this.__extends || function (d, b) {
+var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
-    __.prototype = b.prototype;
-    d.prototype = new __();
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Human = (function () {
     function Human(name) {
@@ -34,14 +33,14 @@ var Robot = (function () {
 var h = new Human("Tom");
 var a = new Animal("Goat");
 var r = new Robot("R2-D2");
-//let r0: Robot = new Animal("Donkey");//now because of pivate variable this is not possible
+var r0 = new Animal("Donkey"); //now because of pivate variable this is not possible
 var h2 = h;
-//h = a;//both have same properties and methods therefore are compatible but because of private variable not same type
+h = a; //both have same properties and methods therefore are compatible but because of private variable not same type
 h.eat();
 var a2 = a;
 var r2 = r;
-//r = a;//Animal has a name, Robot also has a name, but now it is an Error
-//a = r2;//Error, Robot does not have eat method
+r = a; //Animal has a name, Robot also has a name, but now it is an Error
+a = r2; //Error, Robot does not have eat method
 //*********************************************************
 //Example 2
 //Because 'BigAnimal' and 'Rhino' share the private side of their shape from the same declaration of 'private name: string' in 'BigAnimal', 
@@ -70,5 +69,4 @@ var animal = new BigAnimal("Elephant");
 var rhino = new Rhino();
 var employee = new Employee("Bob");
 animal = rhino;
-//animal = employee; //error: BigAnimal and Employee are not compatible
-//# sourceMappingURL=app.js.map
+animal = employee; //error: BigAnimal and Employee are not compatible

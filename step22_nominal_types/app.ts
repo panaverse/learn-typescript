@@ -42,16 +42,16 @@ let h: Human = new Human("Tom");
 let a: Animal = new Animal("Goat");
 let r: Robot = new Robot("R2-D2");
 
-//let r0: Robot = new Animal("Donkey");//now because of pivate variable this is not possible
+let r0: Robot = new Animal("Donkey");//now because of pivate variable this is not possible
 
 let h2 = h;
-//h = a;//both have same properties and methods therefore are compatible but because of private variable not same type
+h = a;//both have same properties and methods therefore are compatible but because of private variable not same type
 h.eat();
 let a2 = a;
 
 let r2 = r;
-//r = a;//Animal has a name, Robot also has a name, but now it is an Error
-//a = r2;//Error, Robot does not have eat method
+r = a;//Animal has a name, Robot also has a name, but now it is an Error
+a = r2;//Error, Robot does not have eat method
 
 
 //*********************************************************
@@ -80,4 +80,4 @@ var rhino = new Rhino();
 var employee = new Employee("Bob");
 
 animal = rhino;
-//animal = employee; //error: BigAnimal and Employee are not compatible
+animal = employee; //error: BigAnimal and Employee are not compatible
