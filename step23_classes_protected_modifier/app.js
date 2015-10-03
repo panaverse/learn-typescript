@@ -1,9 +1,8 @@
 //protected keyword allows subclasses to gain visibility into the parent class without exposing this API to other parts of the code.
-var __extends = this.__extends || function (d, b) {
+var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
-    __.prototype = b.prototype;
-    d.prototype = new __();
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var ListString = (function () {
     function ListString() {
@@ -28,4 +27,3 @@ var StackString = (function (_super) {
 })(ListString);
 var stack = new StackString();
 //stack.setElement(0, 1); // error 'setElement' is protected and only visible to subclasses  
-//# sourceMappingURL=app.js.map
