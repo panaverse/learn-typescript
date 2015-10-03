@@ -22,6 +22,18 @@ class Animal {
     }
 }
 
+class WildAnimal {
+    title: string;
+    
+    constructor(title: string){
+        this.title = title;
+    }
+    
+    eat(){
+        console.log(this.title + " is a Wild Animal and is eating");
+    }
+}
+
 class Robot {
     name: string;
     
@@ -56,6 +68,9 @@ let a2 = a;
 let r2 = r;
 r = a;//Animal has a name, Robot also has a name
 a = r2;//Error, Robot does not have eat method
+let hum : Human = new Animal("Dog");
+let wild : Animal = new WildAnimal("Deer");//this is an Error in version 1.6, Please note that in 1.6 the concept of Duck Typing has changed a bit:
+                                            // https://github.com/Microsoft/TypeScript/pull/3823
 
 /*
 If It's a Duck (https://visualstudiomagazine.com/articles/2015/02/01/datatyping-in-typescript.aspx)
