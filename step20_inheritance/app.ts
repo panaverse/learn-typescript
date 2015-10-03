@@ -31,6 +31,18 @@ class Horse extends Animal {
     }
 }
 
+class Donkey extends Animal {
+    distance: number;
+    constructor(name: string, distance: number) { 
+        super(name); 
+        this.distance = distance;
+    }
+    move(meters = 45) {
+        alert("Moving...");
+        super.move(meters);
+    }
+}
+
 class Cat extends Animal {
     constructor(name: string) { 
         super(name); 
@@ -45,9 +57,13 @@ let a: Animal = new Snake("Python");
 a.move(5);//Snake move method is called not Animals, this is because of polymorphism
 
 let a1: Animal = new Horse("Rocket");
-let h: Horse = a1;//no explicit casting needed because has same methods and properties (structural type)
+let h: Horse = a1 as Horse;//explicit casting needed to up cast
+
+let d1: Horse = new Donkey("Worker", 200);//this is possible because of ducktypeing not because of inheritance
+let d2: Donkey = d1 as Donkey;
 
 let s1: Snake = <Snake> a;//explicit casting needed because Snake has an additional method bite()
+let s2: Snake = a as Snake;//alternative casting syntax
 
 let h1 : Horse = new Cat("Kitten");//why is this allowed? Because it has same properties and methods (structural type) not because of inheritance
 
