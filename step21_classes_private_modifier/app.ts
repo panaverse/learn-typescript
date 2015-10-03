@@ -7,3 +7,6 @@ class Animal {
         alert(this.name + " moved " + meters + "m.");
     }
 }
+
+var a = new Animal("cat").name;
+console.log(a);

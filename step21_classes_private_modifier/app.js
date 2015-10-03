@@ -8,4 +8,5 @@ var Animal = (function () {
     };
     return Animal;
 })();
-//# sourceMappingURL=app.js.map
+var a = new Animal("cat").name;
+console.log(a);
