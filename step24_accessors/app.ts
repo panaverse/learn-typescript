@@ -4,6 +4,8 @@
 //Encapsulation is the packing of data and functions into a single component. 
 //It allows selective hiding of properties and methods in an object by building an impenetrable wall to protect the code from accidental corruption.
 
+//Note getters and setters are only supported when targeting ES 5 or higher
+
 var passcode = "secret passcode";
 
 class Employee {

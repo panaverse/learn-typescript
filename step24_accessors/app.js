@@ -2,6 +2,7 @@
 //This gives you a way of having finer-grained control over how a member is accessed on each object.
 //Encapsulation is the packing of data and functions into a single component. 
 //It allows selective hiding of properties and methods in an object by building an impenetrable wall to protect the code from accidental corruption.
+//Note getters and setters are only supported when targeting ES 5 or higher
 var passcode = "secret passcode";
 var Employee = (function () {
     function Employee() {
@@ -29,4 +30,3 @@ if (employee.fullName) {
     console.log(employee.fullName);
 }
 //We check to make sure the user has a secret passcode available before we allow them to modify the employee. 
-//# sourceMappingURL=app.js.map
