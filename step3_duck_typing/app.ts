@@ -24,8 +24,9 @@ myType = { id: 2,  name_person: "Tom" };//Case 2a: Error, renamed or missing pro
 //Case 2b 
 //A type can include an index signature to explicitly indicate that excess properties are permitted in with fresh objects:
 
-var x: { id: number, [x: string]: any };//Note now 'x' can have any name, just that the second property should be of type string
+var x: { id: number, [x: string]: any };//Note now 'x' can have any name, just that the property should be of type string
 x = { id: 1, fullname: "Zia" };  // Ok, `fullname` matched by index signature
+
 
 //Case 3
 myType = { id: 2,  name: "Tom", age: 22 };//Case 3: Error, excess property
@@ -41,8 +42,16 @@ let myType2 = { id: 2,  name: "Tom" };
 myType = myType2;//Case 1: can only assign a type which has the the same properties, rule same for fresh and stale object
 
 let myType3 = { id: 2,  name_person: "Tom" };
-//Case 2
+//Case 2a
 myType = myType3;//Case 2: Error, renamed or missing property, rule same for stale and fresh object 
+
+
+//Case 2b
+//A type can include an index signature to explicitly indicate that excess properties are permitted in with fresh objects:
+
+var x: { id: number, [x: string]: any };//Note now 'x' can have any name, just that the property should be of type string
+var y = { id: 1, fullname: "Zia" };
+x = y;// Ok, `fullname` matched by index signature
 
 
 var myType4 = { id: 2,  name: "Tom", age: 22 };
