@@ -16,3 +16,13 @@ var grid2 = new Grid(5.0);  // 5x scale
 
 console.log(grid1.calculateDistanceFromOrigin({x: 10, y: 10}));
 console.log(grid2.calculateDistanceFromOrigin({x: 10, y: 10}));
+
+//You can also have static methods
+
+class MyClass{
+    static foo(){
+        console.log("foo");
+    }
+}
+
+MyClass.foo();

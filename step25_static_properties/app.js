@@ -16,4 +16,13 @@ var grid1 = new Grid(1.0); // 1x scale
 var grid2 = new Grid(5.0); // 5x scale
 console.log(grid1.calculateDistanceFromOrigin({ x: 10, y: 10 }));
 console.log(grid2.calculateDistanceFromOrigin({ x: 10, y: 10 }));
-//# sourceMappingURL=app.js.map
+//You can also have static methods
+var MyClass = (function () {
+    function MyClass() {
+    }
+    MyClass.foo = function () {
+        console.log("foo");
+    };
+    return MyClass;
+})();
+MyClass.foo();
