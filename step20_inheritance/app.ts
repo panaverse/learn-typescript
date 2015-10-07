@@ -95,4 +95,4 @@ class B extends A
     }
 }
 
-let obj: A = new B();
+let obj = new B();
