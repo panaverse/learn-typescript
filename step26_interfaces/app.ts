@@ -27,5 +27,5 @@ function printLabel1(labelledObj: LabelledValue) {
   console.log(labelledObj.label);
 }
 
-var myObj = {size: 10, label: "Size 10 Object"};
-printLabel1(myObj);
+var myObj1 = {size: 11, label: "Size 11 Object"};
+printLabel1(myObj1);
