@@ -97,3 +97,28 @@ var B = (function (_super) {
     return B;
 })(A);
 var obj = new B();
+//*********************************
+//Object oriented Theory: http://rachelappel.com/write-object-oriented-javascript-with-typescript
+/*The following are the primary object oriented programming techniques:
+a.	Encapsulation
+b.	Inheritance
+c.	Abstraction
+d.	Polymorphism
+*/
+//The version 1.6 now implements Abstract classes: https://github.com/Microsoft/TypeScript/issues/3578
+var Base = (function () {
+    function Base() {
+    }
+    Base.prototype.foo = function () { return this.bar(); };
+    return Base;
+})();
+var E = (function (_super) {
+    __extends(E, _super);
+    function E() {
+        _super.apply(this, arguments);
+    }
+    E.prototype.bar = function () { return 1; };
+    return E;
+})(Base);
+var obj1 = new Base(); //Error, cannnot create a instance of a Abstract class
+console.log(obj1.foo());
