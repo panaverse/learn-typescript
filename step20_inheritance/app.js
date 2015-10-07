@@ -74,3 +74,26 @@ var d2 = d1;
 var s1 = a; //explicit casting needed because Snake has an additional method bite()
 var s2 = a; //alternative casting syntax
 var h1 = new Cat("Kitten"); //why is this allowed? Because it has same properties and methods (structural type) not because of inheritance
+//**************************************************
+//http://stackoverflow.com/questions/30819663/call-an-overridden-method-from-super-class-in-typescript
+var A = (function () {
+    function A() {
+        this.MyvirtualMethod();
+    }
+    A.prototype.MyvirtualMethod = function () {
+        console.log("A");
+    };
+    return A;
+})();
+var B = (function (_super) {
+    __extends(B, _super);
+    function B() {
+        _super.apply(this, arguments);
+        this.testString = "B";
+    }
+    B.prototype.MyvirtualMethod = function () {
+        console.log(this.testString); // This becomes undefined
+    };
+    return B;
+})(A);
+var obj = new B();

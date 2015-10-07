@@ -69,3 +69,30 @@ let h1 : Horse = new Cat("Kitten");//why is this allowed? Because it has same pr
 
 
 
+//**************************************************
+
+//http://stackoverflow.com/questions/30819663/call-an-overridden-method-from-super-class-in-typescript
+class A
+{
+    constructor()
+    {
+        this.MyvirtualMethod();
+    }
+
+    protected MyvirtualMethod(): void
+    {
+           console.log("A")
+    }
+}
+
+class B extends A
+{
+    private testString: string = "B";
+
+    public MyvirtualMethod(): void
+    {
+        console.log(this.testString); // This becomes undefined
+    }
+}
+
+let obj: A = new B();
