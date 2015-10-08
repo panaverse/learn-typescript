@@ -15,6 +15,7 @@ function createSquare(config: SquareConfig): {color: string; area: number} {
 }
 
 var mySquare = createSquare({color: "black"});
+console.log(mySquare.area);
 
 //The advantage of optional properties is that you can describe these possibly available properties
 //while still also catching properties that you know are not expected to be available. 
