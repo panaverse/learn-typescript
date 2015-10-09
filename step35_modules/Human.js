@@ -4,4 +4,4 @@ var Human = (function () {
     }
     return Human;
 })();
-exports.default = Human;
+exports["default"] = Human;
