@@ -22,3 +22,21 @@ console.log(h.name);
 
 //Note ES 2015 modules can used in the TypeScript src filess, as well as can be in the output js file if you set the --target to es6. 
 //If it is in output js file you will have to use System.js to use it becuase right now most browsers and node.js do not support ES2015 modules. 
+
+
+/*ECMAScript 6 provides the following ways of importing [4]:
+
+    // Default exports and named exports
+    import theDefault, { named1, named2 } from 'src/mylib';
+    import theDefault from 'src/mylib';
+    import { named1, named2 } from 'src/mylib';
+    
+    // Renaming: import named1 as myNamed1
+    import { named1 as myNamed1, named2 } from 'src/mylib';
+    
+    // Importing the module as an object
+    // (with one property per named export)
+    import * as mylib from 'src/mylib';
+    
+    // Only load the module, don’t import anything
+    import 'src/mylib';*/

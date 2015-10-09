@@ -4,4 +4,5 @@ var Human = (function () {
     }
     return Human;
 })();
-exports["default"] = Human;
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = Human;
