@@ -6,4 +6,3 @@ var Point = (function () {
     return Point;
 })();
 var point3d = { x: 1, y: 2, z: 3 };
-//# sourceMappingURL=app.js.map
