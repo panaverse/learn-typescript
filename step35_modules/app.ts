@@ -19,3 +19,6 @@ console.log(h.name);
 
 //If VS Code is giving an error compile with this command:
 //tsc -target es5 -module commonjs app.ts
+
+//Note ES 2015 modules can used in the TypeScript src filess, as well as can be in the output js file if you set the --target to es6. 
+//If it is in output js file you will have to use System.js to use it becuase right now most browsers and node.js do not support ES2015 modules. 
