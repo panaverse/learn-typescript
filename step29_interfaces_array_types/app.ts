@@ -2,7 +2,7 @@
 //where we can only use interfaces to describe class types.
 
 interface StringArray {
-  [index: number]: string;
+  [index: number]: string;//Note there is no name assigned to the function signature
   length: number;
 }
 
@@ -18,7 +18,7 @@ var first = myArray[0];
 //array pattern is demonstrated above, dictinary is as follows:
 
 interface Dictionary {
-  [index: string]: string;
+  [index: string]: string;//Note there is no name assigned to the function signature
 } 
 
 let myDictionary: Dictionary = {"first": "Bob", "second": "Fred"};
@@ -33,7 +33,7 @@ var first = myDictionary["first"];
 //the property does not match the more general index, and the type-checker gives an error:
 
 interface AnotherDictionary {
-  [index: string]: string;
+  [index: string]: string;//Note there is no name assigned to the function signature
   length: number;    // error, the type of 'length' is not a subtype of the indexer
 } 
 
