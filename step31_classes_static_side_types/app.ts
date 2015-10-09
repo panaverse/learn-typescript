@@ -9,13 +9,14 @@ interface ClockInterface {
 
 //Please note that the constructor sits in the static side, it cannot be implemented:
 
-//You may notice that if you create an interface with a construct signature and try to create a class that implements this interface you get an error:
+//You may notice that if you create an interface with a construct signature and try to 
+//create a class that implements this interface you get an error:
 
-/* uncomment to see
-class Clock1 implements ClockInterface  {
+
+class Clock1 implements ClockInterface  {//Error
     currentTime: Date;
     constructor(h: number, m: number) { }
-}*/
+}
 
 //Instead, you would need to work with the 'static' side of the class directly. In this example, we work with the class directly:
 
@@ -23,13 +24,17 @@ interface ClockStatic {
     new (hour: number, minute: number);
 }
 
-class Clock  {
+interface MyClockInterface {
+    currentTime: Date;
+}
+
+class Clock implements MyClockInterface  {
     currentTime: Date;
     constructor(h: number, m: number) { }
 }
 
 var cs: ClockStatic = Clock;
-var newClock = new cs(7, 30);
+var newClock: ClockInterface = new cs(7, 30);
 
 
 

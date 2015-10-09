@@ -7,4 +7,3 @@ var Clock = (function () {
 })();
 var cs = Clock;
 var newClock = new cs(7, 30);
-//# sourceMappingURL=app.js.map
