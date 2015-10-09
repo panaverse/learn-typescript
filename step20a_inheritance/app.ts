@@ -97,3 +97,34 @@ class B extends A
 
 let obj = new B();
 
+
+//*******************************
+//checking types
+class Foo{}
+class Bar extends Foo{}
+class Bas{}
+
+var bar = new Bar();
+
+console.log(bar instanceof Bar); // true
+console.log(bar instanceof Foo); // true
+console.log(bar instanceof Object); // true
+
+console.log(bar instanceof Bas); // false
+
+
+
+//**************************
+//Type Guards
+//http://blogs.msdn.com/b/typescript/archive/2014/11/18/what-s-new-in-the-typescript-type-system.aspx
+//Using instanceof with classes:
+/*
+class Dog { woof() { } }
+class Cat { meow() { } }
+var pet: Dog|Cat = ... ;
+if(pet instanceof Dog) {
+   pet.woof(); // OK
+} else {
+   pet.woof(); // Error
+}
+*/
