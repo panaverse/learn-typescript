@@ -5,8 +5,8 @@
 //It is very important to understand the syntax and concepts of ES2015 modules soon they will be adopted in all browsers:
 //http://www.2ality.com/2014/09/es6-modules-final.html
 
-import {add, sub} from "./math";
-import Human from "./Human";
+import {add, sub} from "./math";//syntax for named imports
+import Human from "./Human";//syntax for default import
 
 var addResult = add(2, 3);
 var subResult = sub(3, 2);
