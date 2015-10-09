@@ -4,4 +4,3 @@ var myArray = ["Bob", "Fred"];
 var first = myArray[0];
 var myDictionary = { "first": "Bob", "second": "Fred" };
 var first = myDictionary["first"];
-//# sourceMappingURL=app.js.map
