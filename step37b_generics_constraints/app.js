@@ -1,5 +1,5 @@
 //Generic Constraints
-//You may sometimes want to write a generic that works only on a set of types where you have some knowledge about what capabilities
+//You may sometimes want to write a generic that works only on a set of types where you have some knowledge about the capabilities
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
@@ -36,6 +36,7 @@ var MyObject2 = (function (_super) {
     return MyObject2;
 })(MyObject);
 var obj = new MyObject2();
-obj.name = "Hira";
+obj.name = "Zeeshan";
 var cont = new Container();
 cont.add(obj);
+cont.print();

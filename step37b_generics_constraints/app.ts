@@ -34,10 +34,11 @@ class MyObject2 extends MyObject{
 }
 
 let obj = new MyObject2();
-obj.name = "Hira";
+obj.name = "Zeeshan";
 
 let cont = new Container<MyObject2>();
 cont.add(obj);
+cont.print();
 
 
 
