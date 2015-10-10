@@ -12,4 +12,3 @@ var Container = (function () {
 })();
 var c = new Container();
 var c1 = new Container();
-//# sourceMappingURL=app.js.map
