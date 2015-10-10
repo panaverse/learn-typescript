@@ -1,0 +1,15 @@
+{
+  "name": "step36a_method_decorators",
+  "version": "1.0.0",
+  "description": "Read this:",
+  "main": "app.js",
+  "dependencies": {
+    "reflect-metadata": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
