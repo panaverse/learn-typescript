@@ -1,3 +1,6 @@
+For the latest specifications:
+https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md
+
 Hello World Steps:
 
 1. Install Node.js from https://nodejs.org/
