@@ -78,10 +78,15 @@ var d1 = new Donkey("Worker", 200); //this is possible see below link for detial
 // object freshness applied to object literals not on class object 
 // If you'd like to prevent Animal from being assigned to a Human, you can add a private property to Animal,
 // since private and protected properties need to originate from the same declaration to be compatible.
+console.log("is Animal? " + (d1 instanceof Animal)); // true
+console.log("is Donkey? " + (d1 instanceof Donkey)); // true
+console.log("is Horse? " + (d1 instanceof Horse)); // false -- 
+console.log("is Horse? " + (typeof d1)); // false --
 var d2 = d1; // explicit casting is required 
 var s1 = a; //explicit casting needed because Snake has an additional method bite()
 var s2 = a; //alternative casting syntax
 var h1 = new Cat("Kitten"); //why is this allowed? Because it has same properties and methods (structural type) not because of inheritance
+//https://github.com/Microsoft/TypeScript/issues/5303
 //**************************************************
 //http://stackoverflow.com/questions/30819663/call-an-overridden-method-from-super-class-in-typescript
 var A = (function () {
