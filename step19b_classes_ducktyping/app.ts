@@ -1,4 +1,5 @@
 //A confusion about Structural Typing:
+//Please Read https://github.com/Microsoft/TypeScript/issues/5303
 
 class Human {
     
