@@ -16,7 +16,7 @@ var first = myArray[0];
 //There are two types of supported index types: string and number.
 //Index signatures are a powerful way to describe the array and 'dictionary' pattern
 //array pattern is demonstrated above, dictinary is as follows:
-
+//Case: 1
 interface Dictionary {
   [index: string]: string;//Note there is no name assigned to the function signature
 } 
@@ -24,6 +24,17 @@ interface Dictionary {
 let myDictionary: Dictionary = {"first": "Bob", "second": "Fred"};
 
 var first = myDictionary["first"];
+
+//Case: 2
+interface Dictionary2 {
+  [index: string]: string;//Note there is no name assigned to the function signature
+  length:string; // string length property
+} 
+
+let myDictionary2: Dictionary2 = {"first": "Bob", "second": "Fred"}; // Will not work, property length is required
+let myDictionary3: Dictionary2 = {"first": "Bob", "second": "Fred",length:"2"}; // Will work, length property is defined but not much usefull 
+
+var first = myDictionary3["first"];
 
 //It is possible to support both types of index, 
 //with the restriction that the type returned from the numeric index must be a subtype of the type returned from the string index.
