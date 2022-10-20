@@ -52,10 +52,6 @@ Total MCQs: 63
 
 Total Time: 120 minutes
 
-Preparation Resource:
-
-https://github.com/panacloud-modern-global-apps/learn-typescript
-
 Please complete your installation, etc. ASAP i.e. before the exam.
 
 It is important to note the following:
