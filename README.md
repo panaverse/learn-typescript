@@ -14,6 +14,11 @@ Note:
 
 [TypeScript and C# both were created by the same person named Anders Hejlsberg](https://dev.to/destrodevshow/typescript-and-c-both-created-by-the-same-person-named-anders-hejlsberg-42g4)
 
+### TypeScript Homework Coding Projects:
+
+[TypeScript Node.js Projects](https://github.com/panacloud-modern-global-apps/typescript-node-projects)
+
+
 ### Learn From Matt Pocock The TypeScript Wizard
 
 [Latest News: Matt Joins Vercel](https://twitter.com/mattpocockuk/status/1559105611995955202)
