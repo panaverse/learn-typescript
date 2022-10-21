@@ -78,11 +78,12 @@ TypeScript is a superset of JavaScript and JavaScript does not, of course, have 
 compatibility). TypeScript has to figure out assignability on its own.
 
 To determine if two classes are assignable, TypeScript uses what it calls "structural subtyping." With structural subtyping, 
-TypeScript compares the properties and methods on the two objects. If the variable on the left-hand side of the equals sign has all the 
-properties and the methods of the object on the right-hand side of the equals sign, then the two objects are assignable. 
+TypeScript compares the properties and methods on the two objects. If the variable on the left-hand side of the equals sign has all or some of the 
+properties and the methods of the object on the right-hand side of the equals sign and has no extra properties than the object on the right-hand side, 
+then the two objects are assignable.
 This is a form of "duck typing" (from the old saying: "If it looks like a duck, walks like a duck and quacks like a duck, then it's a duck").
 
-With structural subtyping, it's perfectly OK for the object on the left-hand side to have more properties than the object on the right, 
+With structural subtyping, it's perfectly OK for the object on the right-hand side to have more properties than the object on the left, 
 it just can't have fewer properties. Obviously, any class that derives from another class will have all of the properties of the base interface.
 
 Structural subtyping lets TypeScript support extending classes defined in other libraries. 
