@@ -17,7 +17,7 @@ Hello World Steps:
 
 6. Generate tsconfig.json by giving this command:
 
-tsc --init
+		tsc --init
 
 7. Create file app.ts
 
