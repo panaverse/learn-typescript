@@ -61,6 +61,7 @@ class E {
 class F extends E {
     name:string;
     constructor(theName: string) {
+        //must call super here
         this.name = theName; 
         console.log("F constrcutor");
         super(theName,4);  // Must call super with two arguments
