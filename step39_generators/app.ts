@@ -1,6 +1,6 @@
 //Execution of a generator is paused till the next iteration is invoked
 
-function *generatorFn(): string{
+function *generatorFn(): Generator<string> {
     //first task
     yield "firstValue";
  
