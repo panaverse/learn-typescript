@@ -19,10 +19,11 @@ printLabel({mylabel: "Size 10 Object"});//Case 2a missing or renamed property: E
 
 //Case 2b
 //A type can include an index signature to explicitly indicate that excess properties are permitted in with fresh objects:
-function printLabelX(labelledObj: {[x: string]:any}) {////Note now 'x' can have any name, just that the property should be of type string
+function printLabelX(labelledObj: {[x: string]:any}) {////Note now 'x' can have any name, just that the property name should be of type string
   console.log(arguments[0]);
 }
-printLabelX({name: "Zia"});// Ok, `name` matched by index signature
+printLabelX({name: "Zia Khan"});// Ok, `name` matched by index signature name: any
+printLabelX({value: 2});// Ok, `value` matched by index signature value: any
 
 
 //Case 3
@@ -33,7 +34,7 @@ printLabel({size: 10, label: "Size 10 Object"});//Case 3 Fresh Literal: Error no
 
 
 //Stale Objects:
-
+// function decleration at the top
 //Case 1:
 var myObj1 = {label: "Size 10 Object"};
 printLabel(myObj1);//Case 1 exact properties: OK
@@ -86,7 +87,7 @@ printLabelY2({name: "Zia"});// Ok, `name` matched by index signature
 
 //Case 3
 printLabelY({size: 11, label: "Size 11 Object"});//Case 3 Fresh Literal: Error no extra properties allowed
-
+printLabelY2({size: 11, label: "Size 11 Object"})//Case 3 extra properties allowed as Fresh Literal due to index signature
 
 
 

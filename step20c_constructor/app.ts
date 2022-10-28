@@ -32,7 +32,7 @@ class C {
 class D extends C {
     name:string;
     constructor(theName: string,age:number) {
-        //Super()   must be here
+        //Super()   //must be here
         this.name = theName; 
         console.log("D constrcutor");
         super(); // 
