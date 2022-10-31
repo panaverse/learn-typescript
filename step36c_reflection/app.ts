@@ -6,7 +6,7 @@
 
 import "reflect-metadata";
 
-function logType(target : any, key : string) {
+function logType(target : any, key : string) {    //targe=Demo{}  key=attr1
       var t = Reflect.getMetadata("design:type", target, key);
       console.log(`${key} type: ${t.name}`);
     }

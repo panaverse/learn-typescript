@@ -25,11 +25,14 @@ let d: B = new B("C");   // Thsi is also not working
 // If parent class does not provide constructor and child class provide constrcutor then 
 // child class must call super() within child's class constructor
 // call to super can be at any line in constructor unlike any other object oriented language with call to super must be as first line
+//* Correction to above line, call to super must be on first line in the child constructor, otherwise you will get a warning while using "this" before super *//
 class C {
+
 }
 class D extends C {
     name:string;
     constructor(theName: string,age:number) {
+        //Super()   //must be here
         this.name = theName; 
         console.log("D constrcutor");
         super(); // 
@@ -38,6 +41,7 @@ class D extends C {
 let aa: C = new C(); // This is working as expected
 let bb: D = new D(); // This is not working because child class has its 2 argumnet constrcutor
 let cc: D = new D("C",8); // This is working as expected
+let dc: D = new C();  //class C must have atleast all properties of class D to be assigned to type D
 
 
 // Case c:
@@ -57,6 +61,7 @@ class E {
 class F extends E {
     name:string;
     constructor(theName: string) {
+        //must call super here
         this.name = theName; 
         console.log("F constrcutor");
         super(theName,4);  // Must call super with two arguments
