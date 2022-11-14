@@ -26,7 +26,7 @@ Hello World Steps:
 
 8. Create file app.ts
 
-We are used string type to store and print the message.
+We have used string type to store and print the message.
 
 Note that the most basic types in TypeScript correspond to the seven basic kinds of primitives in JavaScript:
 
