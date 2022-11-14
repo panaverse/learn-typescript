@@ -1,14 +1,14 @@
 //strongly typed syntax
-var a : string = "Pakistan";
+let a : string = "Pakistan";
 a = "USA";
-var b : number = 9;
-var c : boolean = true;
+let b : number = 9;
+let c : boolean = true;
 
 //type inference
-var e = "USA";
-var f = 10.9;
+let e = "USA";
+let f = 10.9;
 f = 22;
-var g = false;
+let g = false;
 g = true;
 
 
