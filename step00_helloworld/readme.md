@@ -19,7 +19,12 @@ Hello World Steps:
 
 		tsc --init
 
-7. Create file app.ts
+7. Make it a Node.js project by giving the following command:
+
+		npm init -y
+
+
+8. Create file app.ts
 
 We are used string type to store and print the message.
 
@@ -33,11 +38,11 @@ Note that the most basic types in TypeScript correspond to the seven basic kinds
 6. bigint // 0n, 5n, -10n
 7. symbol // Symbol(), Symbol("hi"),
 
-8. Transpile JavaScript by running:
+9. Transpile JavaScript by running:
 
 		tsc app.ts
 
-9. Run transpiled javascript by running the following command:
+10. Run transpiled javascript by running the following command:
 
 		node app
 
