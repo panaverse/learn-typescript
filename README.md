@@ -6,9 +6,15 @@ Chapters 1-11 of [Learning TypeScript: Enhance Your Web Development Skills Using
 
 [In Class Companion projects and articles for Learning TypeScript](https://www.learningtypescript.com/)
 
+## [Watch Learn TypeScript – Full Video Tutorial by freeCodeCamp.org
+](https://www.youtube.com/watch?v=30LWjhZzg50)
+
+
 [Learning TypeScript Project Code in Class](https://github.com/LearningTypeScript/projects)
 
 [TypeScript Cookbook: Future Advanced TypeScript Book](https://www.oreilly.com/library/view/typescript-cookbook/9781098136642/)
+
+
 
 Note:
 

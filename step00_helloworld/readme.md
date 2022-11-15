@@ -49,3 +49,6 @@ Note that the most basic types in TypeScript correspond to the seven basic kinds
 		
 Also Read:
 https://code.visualstudio.com/Docs/languages/typescript
+
+## [Watch Learn TypeScript – Full Video Tutorial by freeCodeCamp.org
+](https://www.youtube.com/watch?v=30LWjhZzg50)
