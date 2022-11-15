@@ -1,5 +1,6 @@
-Explicit casting in chapter 2 of Mastering TypeScript book:
-http://www.amazon.com/Mastering-TypeScript-Nathan-Rozentals/dp/1784399663/
+# Explicit Casting
 
-https://tutorialstown.com/typescript-explicit-casting/
+[Casting](https://www.w3schools.com/typescript/typescript_casting.php)
+
+[Type Casting in TypeScript](https://www.codingninjas.com/codestudio/library/type-casting-in-typescript)
 

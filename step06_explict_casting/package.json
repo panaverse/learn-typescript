@@ -1,0 +1,12 @@
+{
+  "name": "step06_explict_casting",
+  "version": "1.0.0",
+  "description": "[Casting](https://www.w3schools.com/typescript/typescript_casting.php)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
