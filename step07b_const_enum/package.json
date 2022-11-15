@@ -1,0 +1,12 @@
+{
+  "name": "step07b_const_enum",
+  "version": "1.0.0",
+  "description": "[Const Enums](https://www.typescriptlang.org/docs/handbook/enums.html#const-enums)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
