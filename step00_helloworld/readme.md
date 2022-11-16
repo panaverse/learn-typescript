@@ -40,7 +40,7 @@ Note that the most basic types in TypeScript correspond to the seven basic kinds
 
 9. Transpile JavaScript by running:
 
-		tsc app.ts
+		tsc
 
 10. Run transpiled javascript by running the following command:
 
