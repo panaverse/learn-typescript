@@ -1,13 +1,12 @@
 # Learn TypeScript 4.9+ in Baby Steps
 
+### [Watch Learn TypeScript – Full Video Tutorial by freeCodeCamp.org](https://www.youtube.com/watch?v=30LWjhZzg50)
+
 We will learn TypeScript by taking small incremental steps. 
 
 Chapters 1-11 of [Learning TypeScript: Enhance Your Web Development Skills Using Type-Safe JavaScript](https://www.amazon.com/Learning-TypeScript-Development-Type-Safe-JavaScript/dp/1098110331/ref=sr_1_1)
 
 [In Class Companion projects and articles for Learning TypeScript](https://www.learningtypescript.com/)
-
-## [Watch Learn TypeScript – Full Video Tutorial by freeCodeCamp.org
-](https://www.youtube.com/watch?v=30LWjhZzg50)
 
 
 [Learning TypeScript Project Code in Class](https://github.com/LearningTypeScript/projects)
