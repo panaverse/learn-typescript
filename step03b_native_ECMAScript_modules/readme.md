@@ -26,3 +26,6 @@ But when we transpile and run this program we get an error becuase the transpile
 Additional Reading:
 
 [Understanding TypeScript 4.7 and ECMAScript module support](https://blog.logrocket.com/typescript-4-7-ecmascript-module-support/)
+
+[TypeScript and native ESM on Node.js](https://2ality.com/2021/06/typescript-esm-nodejs.html)
+
