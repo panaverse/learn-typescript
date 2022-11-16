@@ -19,13 +19,33 @@ In the import use .js file extension instead of just using "./second":
 
         import {b, c} from "./second.js";
 
-
-But when we transpile and run this program we get an error becuase the transpiler is still using old require syntax instead of Native ECMAScript Modules syntax. May be we are using some wrong setting in package.json or tsconfig.json
-
-
 Additional Reading:
 
 [Understanding TypeScript 4.7 and ECMAScript module support](https://blog.logrocket.com/typescript-4-7-ecmascript-module-support/)
 
 [TypeScript and native ESM on Node.js](https://2ality.com/2021/06/typescript-esm-nodejs.html)
+
+Note: Give the following command to transpile the code:
+
+        tsc 
+
+If you give the following command to transpile the code, the js file will not run:
+
+        tsc app.ts
+
+You will get the following error when you run the code:
+
+node app.js
+
+file:///Users/ZiaKhan/Documents/GitHub/learn-typescript/step03b_native_ECMAScript_modules/app.js:2
+
+exports.__esModule = true;
+^
+
+ReferenceError: exports is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and '/Users/ZiaKhan/Documents/GitHub/learn-typescript/step03b_native_ECMAScript_modules/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///Users/ZiaKhan/Documents/GitHub/learn-typescript/step03b_native_ECMAScript_modules/app.js:2:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+
+Node.js v19.1.0
 
