@@ -1,0 +1,20 @@
+{
+  "name": "step00_helloworld",
+  "version": "1.0.0",
+  "description": "[For the latest docs](https://www.typescriptlang.org/docs/)",
+  "type": "module",
+  "main": "./app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  }
+}
