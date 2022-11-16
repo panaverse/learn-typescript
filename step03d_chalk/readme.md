@@ -22,4 +22,4 @@ Give the following commands:
 
         node app.js
 
-## You can even develop [CLI Games](https://www.youtube.com/watch?v=_oHByo8tiEY). All your class projects will be CLI based and should be deployed as an NPX script
+## You can even develop [CLI Games](https://www.youtube.com/watch?v=_oHByo8tiEY). All your class projects will be CLI based and should be deployed as an [NPX command](https://blog.deepgram.com/npx-script/)
