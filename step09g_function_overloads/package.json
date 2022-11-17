@@ -1,0 +1,12 @@
+{
+  "name": "step09g_function_overloads",
+  "version": "1.0.0",
+  "description": "[Function Overloads](https://www.typescriptlang.org/docs/handbook/2/functions.html#function-overloads)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

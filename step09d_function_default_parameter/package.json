@@ -1,0 +1,12 @@
+{
+  "name": "step09c_function_default_parameter",
+  "version": "1.0.0",
+  "description": "[TypeScript Default Parameters](https://www.typescripttutorial.net/typescript-tutorial/typescript-default-parameters/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

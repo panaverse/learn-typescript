@@ -1,0 +1,12 @@
+{
+  "name": "step09_functions",
+  "version": "1.0.0",
+  "description": "[Functions](https://www.typescriptlang.org/docs/handbook/2/functions.html)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

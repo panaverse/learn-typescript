@@ -13,6 +13,7 @@ function (firstName: string, ...restOfName: string[]) {
 	return firstName + " " + restOfName.join(" ");
 }
 
-//Note: Rest, optional and default parameters can only be at the end of the parameter list
+//Note: Rest, optional and default parameters can only
+// be at the end of the parameter list
 											
 						
