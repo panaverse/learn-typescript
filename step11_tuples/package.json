@@ -1,0 +1,12 @@
+{
+  "name": "step11_tuples",
+  "version": "1.0.0",
+  "description": "[Tuples](https://www.w3schools.com/typescript/typescript_tuples.php)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

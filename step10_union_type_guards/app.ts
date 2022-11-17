@@ -28,7 +28,7 @@ function f(x: number | number[]) {
 
 class Dog { woof() { } }
 class Cat { meow() { } }
-var pet: Dog|Cat = new Dog();
+let pet: Dog|Cat = new Dog();
 if(pet instanceof Dog) {//this is also a type guard
    pet.woof(); // OK
 } else {
@@ -41,7 +41,7 @@ A common pattern in JavaScript is to use typeof or instanceof to examine the typ
 TypeScript now understands these conditions and will change type inference accordingly when used in an if block.
 This is called a type guard.*/
 
-var x: any = "Tom"; //Line A
+let x: any = "Tom"; //Line A
 if(typeof x === 'string') { //Line B
    console.log(x.lengthX);// Error, 'lengthX' does not exist on 'string' but 'lenght' does
 }
