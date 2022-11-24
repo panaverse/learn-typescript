@@ -89,7 +89,7 @@ The Answer is No.
 
 ## Examples of JSON 
 
-1. package.json
-2. tsconfig.json
+1. [package.json](https://docs.npmjs.com/cli/v9/configuring-npm/package-json)
+2. [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
 
 [Reference Twitter Post on JSON](https://twitter.com/personalvipin/status/1595314084118790144)
