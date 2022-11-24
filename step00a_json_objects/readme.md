@@ -4,15 +4,15 @@
 2. JSON is a text-based data format that is used to store and transfer data.
 3. // JSON syntax
 
-{
+    {
 
-    "name": "Vipin",
+        "name": "Vipin",
 
-    "age": 21,
+        "age": 21,
 
-    "gender": "male",
+        "gender": "male",
 
-}
+    }
 
 But wait, Is JSON is similar to javaScript objects?
 
@@ -30,7 +30,8 @@ The Answer is No.
 
 // JSON data
 
-"name": "Vipin"
+        "name": "Vipin"
+
 4. JSON data requires double quotes for the key.
 
 ## JSON Object
@@ -39,47 +40,47 @@ The Answer is No.
 2. JSON objects can contain multiple key/value pairs. 
 3. Example :
 
-// JSON object
+        // JSON object
 
-{ "name": "Vipin", "age": 21 }
+        { "name": "Vipin", "age": 21 }
 
 ## JSON Array
 
 1. JSON array is written inside square brackets [ ].
 2. Example : 
 
-// JSON array
+        // JSON array
 
-[ "Vipin", "Ankit", "Raj"]
+        [ "Vipin", "Ankit", "Raj"]
 
 ## Accessing JSON Data
 
 1. We can access JSON data using the dot notation. 
 2. Example : 
 
-// JSON object
+        // JSON object
 
-const detail = { "name": "Vipin", "age": 21 }
+        const detail = { "name": "Vipin", "age": 21 }
 
-// accessing JSON object
+        // accessing JSON object
 
-console.log(detail. name); // Vipin
+        console.log(detail. name); // Vipin
 
 3. We can also use square bracket syntax [] to access JSON data.
 4. Example :
 
-// JSON object
+        // JSON object
 
-const detail = {
+        const detail = {
 
-    "name": "Vipin",
+            "name": "Vipin",
 
-    "age": 21
-}
+            "age": 21
+        }
 
-// accessing JSON object
+    // accessing JSON object
 
-console.log(detail["age"]); // Vipin
+    console.log(detail["age"]); // Vipin
 
 ## Use of JSON
 1. JSON is the most commonly used format for transmitting data (data interchange) from a server to a client and vice-versa. 
