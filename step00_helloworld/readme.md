@@ -19,6 +19,18 @@ Hello World Steps:
 
 		tsc --init
 
+If you want to run TypeScript tsc command in Windows Powershell:
+
+1. Open Powershell in Adminstrator mode
+2. Run command: 
+
+		Set-ExecutionPolicy RemoteSigned
+
+Policy updated and now you can run tsc command in powershell.
+
+[For more Details Check this out](https://islenmisveri.wordpress.com/2021/01/31/working-with-scripts-in-powershell-typescript-compiler-tsc-problem-fix/)
+
+
 7. Make it a Node.js project by giving the following command:
 
 		npm init -y
