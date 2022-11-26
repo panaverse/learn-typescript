@@ -10,6 +10,7 @@ In the tsconfig.json set [module](https://www.typescriptlang.org/tsconfig#module
 
         "module": "nodenext",
         "moduleResolution": "NodeNext", 
+        "target": "es2020",     
 
 In the package.json add:
 
