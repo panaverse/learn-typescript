@@ -35,8 +35,14 @@ Policy updated and now you can run tsc command in powershell.
 
 		npm init -y
 
+8. Install types for Node.js
 
-8. Create file app.ts
+		npm i @types/node -D
+
+9. Create .gitignore file
+
+
+10. Create file app.ts
 
 We have used string type to store and print the message.
 
