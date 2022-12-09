@@ -4,6 +4,8 @@ Now we want our JavaScript Node.js files to use the [ECMAScript modules](https:/
 
 [ECMAScript Modules in Node.js](https://www.typescriptlang.org/docs/handbook/esm-node.html)
 
+[Watch Video: How to Setup Node.js with TypeScript in 2023](https://www.youtube.com/watch?v=H91aqUHn8sE)
+
 Before we transpile the program we will have make some changes.
 
 In the tsconfig.json set [module](https://www.typescriptlang.org/tsconfig#module) and [moduleResolution](https://www.typescriptlang.org/tsconfig#moduleResolution):
