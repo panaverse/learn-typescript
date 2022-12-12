@@ -1,5 +1,11 @@
 Read:
+
+
+https://www.typescriptlang.org/docs/handbook/type-compatibility.html
+
+
 http://www.typescriptlang.org/Handbook#classes-classes
+
 http://basarat.gitbooks.io/typescript/content/docs/classes.html
 
 Nominative and structural type systems
