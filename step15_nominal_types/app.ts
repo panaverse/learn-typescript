@@ -1,5 +1,7 @@
-//When comparing types that have 'private' members, we treat these differently. For two types to be considered compatible, 
-//if one of them has a private member, then the other must have a private member that originated in the same declaration. 
+//When comparing types that have 'private' members, we treat these
+// differently. For two types to be considered compatible, 
+//if one of them has a private member, then the other must have a 
+//private member that originated in the same declaration. 
 //This allows us to implement Nominative types in TypeScript 
 
 class Human {
