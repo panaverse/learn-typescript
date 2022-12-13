@@ -43,16 +43,19 @@ let d  = {name:"Hello",age:4};
 let h: Human = {name:"hello"}; // This is allowed
 let h1: Human = d; // Concept of stale object applied here
 
-let isHuman:boolean = h instanceof Human; // Its false, because we have assigned object literal and assignment works because
-// of structural typing
+//Its false, because we have assigned object literal and 
+//assignment works because of structural typing
+let isHuman:boolean = h instanceof Human; 
 console.log(isHuman); // false
 
 
-
-let a1: Animal = {name:"Cat",age:4}; // This is not allowed need to add all properties including functions
+//This is not allowed need to add all properties 
+//including functions
+let a1: Animal = {name:"Cat",age:4}; 
 
 // This below statement is allowed 
-// Note there is no parameter in function and it does not give any compilation error but you can not call
+// Note there is no parameter in function and it does not give 
+// any compilation error but you can not call
 // this function without paramter, see the call below
 let a2: Animal = {name:"Dog",age:4, eat: function() {
     console.log("Eat in object literal");
@@ -60,3 +63,6 @@ let a2: Animal = {name:"Dog",age:4, eat: function() {
 
 a2.eat(); // Not allowed 
 a2.eat(3); // Works fine
+
+let isAnimal:boolean = a2 instanceof Animal; 
+console.log(isAnimal); // What will be printed?
