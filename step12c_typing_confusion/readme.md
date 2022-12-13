@@ -1,5 +1,7 @@
 Read:
 
+https://github.com/Microsoft/TypeScript/issues/5303
+
 https://www.typescriptlang.org/docs/handbook/type-compatibility.html
 
 http://www.typescriptlang.org/Handbook#classes-classes

@@ -6,11 +6,14 @@
 //bound to a variable. 
 //The same doesn't apply for any other expressions.
 
-//The idea is that object literals are often used for option bags (where the user has to manually type out each property 
+//The idea is that object literals are often used for option bags 
+//(where the user has to manually type out each property 
 //name at each use-site), and this behavior catches typos.
 
-//If you'd like to prevent Animal from being assigned to a Human, you can add a private property to Animal, 
-//since private and protected properties need to originate from the same declaration to be compatible.
+//If you'd like to prevent Animal from being assigned to a Human, 
+//you can add a private property to Animal, 
+//since private and protected properties need to originate from
+//the same declaration to be compatible.
 
 class Human {
     
