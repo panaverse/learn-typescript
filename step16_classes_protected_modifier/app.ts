@@ -1,4 +1,5 @@
-//protected keyword allows subclasses to gain visibility into the parent class without exposing this API to other parts of the code.
+//protected keyword allows subclasses to gain visibility into the
+// parent class without exposing this API to other parts of the code.
 
 class ListString {
     private contents: string[];
