@@ -1,5 +1,7 @@
-// If parent class provide constructor(with or without argument) then you must have to create constructor in child class
-// and must call super()
+// If parent class provide constructor(with or without argument) 
+// then you must have to create constructor in child class and must call super() 
+//If you want to initialize the members of the child class differently than the parent class.
+//otherwise If the child class does not define its own constructor, it will inherit the constructor of the parent class.
 // Below code will not work because it does not call super,
 
 // Case 1:
@@ -61,7 +63,10 @@ class F extends E {
         console.log("F constrcutor");
         super(theName,4);  // Must call super with two arguments
         
-        //super("Hello",5); // Multiple supper call working, No error here -- seems to be some special case   
+        //super("Hello",5);
+        // Multiple supper call working, No error here -- seems to be some special case  
+        // but when we'll run this code it'll give us  "ReferenceError: Super constructor may only be called once"
+
     }
 }
 let e: E = new E("E",1);
