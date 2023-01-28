@@ -1,4 +1,3 @@
 Read:
-https://visualstudiomagazine.com/articles/2015/02/01/datatyping-in-typescript.aspx
-http://www.typescriptlang.org/Handbook#classes-inheritance
-http://www.johnpapa.net/typescriptpost3/
+
+https://www.typescriptlang.org/docs/handbook/2/classes.html#class-heritage

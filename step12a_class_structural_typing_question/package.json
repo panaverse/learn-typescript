@@ -1,7 +1,7 @@
 {
-  "name": "step10a_union_types",
+  "name": "step11_classes",
   "version": "1.0.0",
-  "description": "",
+  "description": "Read: http://www.typescriptlang.org/Handbook#classes-classes http://basarat.gitbooks.io/typescript/content/docs/classes.html",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

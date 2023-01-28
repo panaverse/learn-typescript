@@ -1,4 +1,4 @@
-# Structural Typing
+# Structural Typing in Object Literals
 
 TypeScript is a Structural Type System. A structural type
 system means that when comparing types, TypeScript only
@@ -9,6 +9,8 @@ could create two types but could not assign them to each
 other.
 
 [Type Compatibility](https://www.typescriptlang.org/docs/handbook/type-compatibility.html)
+
+[Freshness](https://basarat.gitbook.io/typescript/type-system/freshness)
 
 [Structural Typing & Duck Typing in TypeScript](https://www.tektutorialshub.com/typescript/structural-typing-duck-typing-in-typescript/)
 
