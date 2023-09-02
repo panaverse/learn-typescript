@@ -80,7 +80,7 @@ The Answer is No.
 
     // accessing JSON object
 
-    console.log(detail["age"]); // Vipin
+    console.log(detail["age"]); // 21
 
 ## Use of JSON
 1. JSON is the most commonly used format for transmitting data (data interchange) from a server to a client and vice-versa. 
