@@ -15,6 +15,6 @@ Run the following command to experience a CLI game:
 
 Now review the [source code](https://github.com/fireship-io/javascript-millionaire) for Firequiz game.
 
-## [Submit your projects here](https://forms.gle/A37eRgiz46wvfTUv6)
+## [Submit your projects here](https://forms.gle/EHeLk1VpkztEC4oL7)
 
 ## [Hint: Review this project before starting](https://github.com/panaverse/learn-typescript/tree/master/step03d_chalk)
