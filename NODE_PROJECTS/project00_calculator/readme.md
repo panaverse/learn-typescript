@@ -19,7 +19,7 @@ Now review the [source code](https://github.com/fireship-io/javascript-millionai
 
 ## [Hint: Review this project before starting](https://github.com/panaverse/learn-typescript/tree/master/step03d_chalk)
 
-## Watch the Vidios to Learn how to do This Project
+## Watch the Videos to Learn how to do This Project
 
 [Video 1: TypeScript and Node.js Installation and Hello World](https://www.linkedin.com/feed/update/urn:li:activity:7173851792231874561)
 
