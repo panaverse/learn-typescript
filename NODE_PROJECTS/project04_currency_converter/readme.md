@@ -6,3 +6,5 @@ While developing the app, the beginners can master variables, algorithms, loops,
 
 Create a GitHub repository for the project and submit its URL in the project submission form. 
 
+[Watch Video Tutorial](https://www.linkedin.com/events/ramadancodingnights8-callinggov7181890523790532608/theater/)
+
