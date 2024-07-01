@@ -1,4 +1,4 @@
-# Syntax Error
+# Assignability Error
 
 		tsc app.ts
 
